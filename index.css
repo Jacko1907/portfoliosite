@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body {
+    background: url(mig/pexels-phil-kallahar-983200.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+#intro {
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#title { 
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+#title span {
+    color: rgb(0, 255, 13);
+}
+
+
+
+#confidenceBars { 
+    position: fixed;
+    left: 50%;
+    width: 60%;
+    margin: 25px;
+    transform: translate(-50%, -50%);
+}
+
